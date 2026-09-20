@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+        <title>
+            katssite
+        </title>
+
+        <link rel="stylesheet" href="Style.css">
+
+
+        <script>
+        function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+
+        <style>
+            
+            html{
+                background-image: url(immage/BACKGROUND.gif);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-attachment: fixed;
+                align-items: center;
+
+            }
+
+
+            body{
+                height: 100%;
+                margin-left: 300px;
+                margin-right: 300px;
+                
+                
+            }
+
+            a{
+                font-size: 20px;
+                font-family: cabinet;
+                margin-bottom: 200px;
+                
+                
+            }
+
+            .hello{
+                font-size: 25px;
+                font-weight: lighter;
+                margin-top: 300px;
+                margin-left: 300px;
+                margin-right: 300px;
+                margin-bottom: 100px;
+                
+ 
+            }   
+            
+            h5{
+                font-size: 15px;
+                font-family: cabinet;
+                
+ 
+            } 
+                     
+
+            
+
+        </style> 
+
+    
+
+    </head>
+
+    
+
+
+<body>
+
+    <header>
+        <h1> KATJUŠA RUPNIK</h1>
+        
+    </header>
+
+    
+
+<button class="tablink" onclick="openPage('About', this, 'rgba(18, 83, 97, 0.3)')">About</button>
+<button class="tablink" onclick="openPage('CV', this, 'rgba(18, 83, 97, 0.1)')" id="defaultOpen">CV</button>
+<button class="tablink" onclick="openPage('Portfolio', this, 'rgba(18, 83, 97, 0.1)')">Portfolio</button>
+
+<div id="About" class="tabcontent">
+
+  <H4 class="hello">Thanks for checking out my website! The purpose of it is to give an overview of my CV, and some of my visuals. You can click through tabs above to explore the content. If you wish explore further, you can check out my archive onthis link:</H4>
+  <a HREF="https://docs.google.com/spreadsheets/d/1Hiem-rkLL1qVLc0Y_Ii-zbwOe0Ij65XhMAM1D0QFGt8/edit?usp=sharing">MY ARCHIVE</a>
+  <h4>CONTACT</h4>
+  <H5>e-mail: katjusa.rupnik@gmail.com</H5>
+  <H5>ig: @katjusa.rupnik</H5>
+  <h5>+4530410922</h5>
+</div>
+
+<div id="CV" class="tabcontent">
+  <h3>EDUCATION</h3>
+  <h4>Royal Danish Academy; master’s program Political Architecture: Critical Sustainability (2023-2025)</h4>
+  <h4>VIA University College; Erasmus Exchange ATCM (2022-2023)</h4>
+  <h4>Univerza v Ljubljani; fakulteta za arhitekturo; single cycle master’s degree(2019-2023)</h4>
+  <h4>Gimnazija Kranj; Highschool (2015-2019)</h4>
+  <h3>WORKSHOPS, RESIDENCIES</h3>
+  <H4>Stay at the Danish Institute in Athens (September 2026)</H4>
+  <H4>BIO 29: Soft Fields Production Platform (2026-ongoing)</H4>
+  <H4>ORBI Harvest school (October 2025)</H4>
+  <h3>COMPETITIONS</h3>
+  <H4>Arkitektforeningens Arets Udsyn* (February 2026)</H4>
+  <H4>Chicken coop competition* (February 2026)</H4>
+  <H4>Copenhagen Architecture Forum annual open call; Unheard Voices of Architecture* (April 2025)</H4>
+  <H4>Placing reading in public space (2022)</H4>
+  <H4>Open call for Illy can design (2020)</H4>
+  <p>*Collaboration</p>
+</div>
+
+<div id="Portfolio" class="tabcontent">
+
+  <img src="immage/map before storm-compressed (1).jpg"style="width: 1200px;">
+  <img src="immage/map after storm (1).jpg"style="width: 1200px;">
+  <img src="immage/illustration 1 (1).jpg"style="width: 1200px;">
+  <img src="immage/illustration 2 (1).jpg"style="width: 1200px;">
+  <img src="immage/illustration 3 (1).jpg"style="width: 1200px;">
+  <img src="immage/illustration 4 (1).jpg"style="width: 1200px;">
+  <img src="immage/zadrga_KatjusaRupnik_naslovna.gif" style="width: 1200px;">
+  <img src="immage/medieval ckickencoop the dream tweekd 1.jpg"style="width: 1200px;">
+  <img src="immage/19.gif"style="width: 1200px;">
+  <img src="immage/27.5_prerez_animacija.gif"style="width: 1200px;">
+  <img src="immage/4_projekt_cudnahisa_aksonometrija1.gif"style="width: 1200px;">
+  <img src="immage/aksonometrija_animacija_10.6..gif"style="width: 1200px;">
+    
+  
+  <p></p>
+</div>
+
+    
+
+
+</body>
+
+    
+
+</html>

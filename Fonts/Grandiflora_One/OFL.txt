@@ -1,0 +1,22 @@
+
+BUTTONS IN MY HTML KATSSITE
+
+/*<div class="button1">
+    <a href="CV.html">
+
+        <img src="immage/krog.png" title="cv">
+    </a>
+    </div>
+
+    <div class="button2">
+    <a href="CV.html">
+        <img src="immage/kvadrat.png" title="cv">
+        
+    </a>
+    </div>
+
+    <div class="button3">
+    <a href="CV.html">
+        <img src="immage/trikotnik.png" title="cv">
+    </a>
+    </div>*/
