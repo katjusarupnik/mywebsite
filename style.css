@@ -1,6 +1,5 @@
 @font-face{
-    font-family: CABINET;
-    src: url(Fonts/futura\ medium\ bt.ttf)
+    font-family: Arial, Helvetica, sans-serif;
     }
 
 *{
@@ -74,6 +73,7 @@ body{
     img{
         margin-top: 200px;
         margin-bottom: 200px;
+        width: 500px;
         
     }
     
