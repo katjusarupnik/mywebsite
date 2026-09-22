@@ -83,6 +83,7 @@ body{
 .tablink {
     position: sticky;
     top: 0px;
+    margin-top: 200px;
     z-index: 1;
     align-self: center;
   font-family: CABINET;
@@ -95,6 +96,7 @@ body{
   padding: 14px 16px;
   font-size: 30px;
   width: 33.333334%;
+    min-width: fit-content;
   
 }
 
@@ -109,8 +111,8 @@ body{
 
     align-items: center;
     text-align: center;
-    padding: 100px;
     min-width: fit-content;
+    padding: 100px;
     margin-top: 100px;
   align-self: center;
   color:rgb(255, 225, 0);
