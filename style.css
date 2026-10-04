@@ -109,10 +109,10 @@ body{
   height: 100%;
 }
 
-#About {background-color: rgba(18, 83, 97, 0.1);
+#About {background-color: rgba(149,194, 200);
 border: solid, rgb(255, 225, 0), 2px;}
-#CV {background-color: rgba(18, 83, 97, 0.1);
+#CV {background-color: rgba(149,194, 200);
 border: solid, rgb(255, 225, 0), 2px;}
-#Portfolio {background-color:rgba(18, 83, 97, 0.1);
+#Portfolio {background-color:rgba(149,194, 200);
 border: solid,rgb(255, 225, 0) , 2px;}
 
