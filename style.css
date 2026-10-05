@@ -80,6 +80,7 @@ body{
   font-weight: bold;
   color:rgb(255, 225, 0);
   float: left;
+  background-color: transparent;
   border: solid, rgb(255, 225, 0), 2px;
   outline: none;
   padding: 14px 16px;
