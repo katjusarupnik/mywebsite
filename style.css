@@ -5,7 +5,6 @@
 
 *{
     cursor: url(immage/lastovica.png), auto;
-    align-items: center;
     
     
 }
@@ -43,7 +42,6 @@ body{
     h3{ margin-top: 100px;
         font-family: cabinet;
         font-size: 15px;
-       float: left;
     }
 
     h4{
@@ -51,7 +49,6 @@ body{
         font-family: cabinet;
         font-size: 15px;
         font-weight: normal;
-         float: left;
     }
 
     p{
