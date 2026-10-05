@@ -74,6 +74,7 @@ body{
     position: sticky;
     top: 0px;
     z-index: 1;
+    text-align: center;
     align-self: center;
   font-family: CABINET;
   font-weight: bold;
