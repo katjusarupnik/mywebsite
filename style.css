@@ -99,13 +99,12 @@ body{
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
 
-    align-items: center;
+    
     min-width: fit-content;
     padding: 50px;
     margin-top: 150px;
-  align-self: center;
-  color:rgb(255, 225, 0);
-  display: none;
+    color:rgb(255, 225, 0);
+    display: none;
   
   height: 100%;
 }
