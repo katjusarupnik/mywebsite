@@ -76,6 +76,7 @@ body{
     z-index: 1;
     text-align: center;
     align-self: center;
+    align-items: center;
   font-family: CABINET;
   font-weight: bold;
   color:rgb(255, 225, 0);
