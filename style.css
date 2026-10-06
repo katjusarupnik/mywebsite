@@ -75,7 +75,8 @@ body{
   align-items: center;}
 .photo{display: flex;
   justify-content: center; 
-  align-items: center;}
+  align-items: center;
+      text-align: center;}
     
 
 
