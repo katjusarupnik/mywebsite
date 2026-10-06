@@ -68,6 +68,9 @@ body{
         obejct-position: 20% 80%;
         
     }
+
+.buttons{display: flex;
+        flex-wrap: non-wrap;}
     
 
 
