@@ -107,6 +107,7 @@ body{
     margin-top: 100px;
     color:rgb(255, 225, 0);
     display: none;
+    min-width: FIT-CONTENT;
   
   height: 100%;
 }
