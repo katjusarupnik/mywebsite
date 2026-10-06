@@ -109,6 +109,7 @@ body{
     color:rgb(255, 225, 0);
     display: none;
     align-content: center;
+    align-items: center;
   
   height: 100%;
 }
