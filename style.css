@@ -105,7 +105,9 @@ body{
     padding: 100px;
     margin-top: 100px;
     color:rgb(255, 225, 0);
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
   height: 100%;
 }
@@ -115,5 +117,5 @@ border: solid, rgb(255, 225, 0), 2px;}
 #Current {background-color: rgba(149, 194, 200);
 border: solid, rgb(255, 225, 0), 2px;}
 #Portfolio {background-color:rgba(149, 194, 200);
-border: solid,rgb(255, 225, 0) , 2px; display: flex; align-items: center;}
+border: solid,rgb(255, 225, 0) , 2px;}
 
