@@ -58,6 +58,7 @@ body{
         font-size: 14px;
         font-weight: normal;
         width:800px;
+        text-align: center;
     }
     
     img{
@@ -66,7 +67,7 @@ body{
         margin-left: 50px;
         margin-right: 50px;
         width: 500px;
-        obejct-position: 50% 50%;
+        text-align: center;
         
     }
 
