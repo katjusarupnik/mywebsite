@@ -53,7 +53,6 @@ body{
     }
 
     p{
-        align-self: center;
         font-family: cabinet;
         font-size: 14px;
         font-weight: normal;
@@ -62,12 +61,10 @@ body{
     }
     
     img{
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
         margin-top: 50px;
         margin-bottom: 50px;
-        width: 500px;
         
     }
 
@@ -102,7 +99,8 @@ body{
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     min-width: fit-content;
     padding: 100px;
     margin-top: 100px;
@@ -117,5 +115,5 @@ border: solid, rgb(255, 225, 0), 2px;}
 #Current {background-color: rgba(149, 194, 200);
 border: solid, rgb(255, 225, 0), 2px;}
 #Portfolio {background-color:rgba(149, 194, 200);
-border: solid,rgb(255, 225, 0) , 2px; align-objects: center;}
+border: solid,rgb(255, 225, 0) , 2px;}
 
