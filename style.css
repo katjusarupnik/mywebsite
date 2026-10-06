@@ -64,11 +64,14 @@ body{
         
         margin-top: 50px;
         margin-bottom: 50px;
+        ALIGN-SELF: center;
         
     }
 
 .buttons{display: flex;
-        flex-wrap: non-wrap;}
+        flex-wrap: non-wrap;
+        position: sticky;
+    top: 0px;}
 
 
     
@@ -107,7 +110,6 @@ body{
     margin-top: 100px;
     color:rgb(255, 225, 0);
     display: none;
-    min-width: FIT-CONTENT;
   
   height: 100%;
 }
