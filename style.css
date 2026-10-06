@@ -102,7 +102,7 @@ body{
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
 
-    
+    margin: auto;
     min-width: fit-content;
     padding: 100px;
     margin-top: 100px;
