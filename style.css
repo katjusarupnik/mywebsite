@@ -70,11 +70,7 @@ body{
 .buttons{display: flex;
         flex-wrap: non-wrap;}
 
-.text{display: flex;
-  align-items: center;}
-.photo{display: flex;
-  align-items: center;
-      text-align: center;}
+
     
 
 
