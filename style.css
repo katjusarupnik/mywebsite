@@ -58,13 +58,13 @@ body{
         font-size: 14px;
         font-weight: normal;
         width:800px;
+       margin-left: 50%;
+        margin-right: 50%;
     }
     
     img{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 50%;
+        margin-right: 50%;
         width: 500px;
         
     }
@@ -115,5 +115,5 @@ border: solid, rgb(255, 225, 0), 2px;}
 #Current {background-color: rgba(149, 194, 200);
 border: solid, rgb(255, 225, 0), 2px;}
 #Portfolio {background-color:rgba(149, 194, 200);
-border: solid,rgb(255, 225, 0) , 2px; object-position: 50% 50%;}
+border: solid,rgb(255, 225, 0) , 2px;}
 
